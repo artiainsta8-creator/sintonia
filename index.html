@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#16110f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Sintonia · VoxForge</title>
+  <link rel="manifest" href="manifest.webmanifest" crossorigin="use-credentials">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="sintonia.css">
+</head>
+<body>
+  <!-- BIBLIOTECA -->
+  <main id="library" class="library">
+    <header class="top">
+      <div class="brand">
+        <img src="icon-192.png" alt="" width="40" height="40">
+        <div>
+          <small id="greeting">Olá</small>
+          <h1>Sintonia</h1>
+        </div>
+      </div>
+      <a class="link" href="/" title="Voltar ao VoxForge">VoxForge ›</a>
+    </header>
+
+    <p class="lead" id="libSub">Carregando…</p>
+
+    <h2 class="sec">Como você quer se sentir?</h2>
+    <div class="moods" id="moods"></div>
+    <p class="hint" id="hint" hidden></p>
+
+    <div class="actions">
+      <button class="btn primary" id="playAll">
+        <svg viewBox="0 0 24 24" class="f"><path d="M8 5v14l11-7z"/></svg>
+        <span>Tocar</span>
+      </button>
+      <button class="btn" id="shuffleAll">
+        <svg viewBox="0 0 24 24"><path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>
+        <span>Misturar</span>
+      </button>
+      <button class="btn" id="downloadAll" title="Baixar para ouvir sem internet">
+        <svg viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>
+        <span id="downloadAllLabel">Baixar</span>
+      </button>
+    </div>
+
+    <div id="grid" class="grid"></div>
+    <p class="foot" id="storageInfo"></p>
+  </main>
+
+  <!-- MINI PLAYER -->
+  <div id="mini" class="mini" hidden>
+    <div class="mini-prog"><i id="miniProg"></i></div>
+    <img id="miniArt" alt="">
+    <div class="mini-txt" id="miniOpen">
+      <strong id="miniTitle"></strong>
+      <span id="miniArtist"></span>
+    </div>
+    <button class="round" id="miniPlay" aria-label="Tocar/pausar"></button>
+  </div>
+
+  <!-- TOCANDO AGORA -->
+  <section id="now" class="now" hidden aria-label="Tocando agora">
+    <div class="now-top">
+      <button class="ic" id="nowClose" aria-label="Fechar">
+        <svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <span class="badge" id="nowAlbum"></span>
+      <button class="ic" id="nowQueueBtn" aria-label="Fila">
+        <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+      </button>
+    </div>
+
+    <div class="disc-wrap">
+      <div class="disc" id="disc">
+        <img id="nowArt" alt="">
+        <span class="hole"></span>
+      </div>
+    </div>
+
+    <div class="now-info">
+      <h2 id="nowTitle"></h2>
+      <p id="nowArtist"></p>
+      <div class="tags" id="nowTags"></div>
+    </div>
+
+    <div class="seek">
+      <input type="range" id="seek" min="0" max="1000" value="0" aria-label="Posição">
+      <div class="times"><span id="tCur">0:00</span><span id="tDur">0:00</span></div>
+    </div>
+
+    <div class="controls">
+      <button class="ic" id="btnShuffle" aria-label="Misturar">
+        <svg viewBox="0 0 24 24"><path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>
+      </button>
+      <button class="ic lg" id="btnPrev" aria-label="Anterior">
+        <svg viewBox="0 0 24 24"><path d="M19 6 9 12l10 6zM5 6v12"/></svg>
+      </button>
+      <button class="play" id="btnPlay" aria-label="Tocar/pausar"></button>
+      <button class="ic lg" id="btnNext" aria-label="Próxima">
+        <svg viewBox="0 0 24 24"><path d="m5 6 10 6-10 6zM19 6v12"/></svg>
+      </button>
+      <button class="ic" id="btnRepeat" aria-label="Repetir">
+        <svg viewBox="0 0 24 24"><path d="M17 2l3 3-3 3M3 11V9a4 4 0 0 1 4-4h13M7 22l-3-3 3-3M21 13v2a4 4 0 0 1-4 4H4"/></svg>
+        <b class="one">1</b>
+      </button>
+    </div>
+
+    <div class="tools">
+      <button class="tool" id="nowFav">
+        <svg viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-9.2-9.3C1.6 7.3 3.8 4 7.2 4c2 0 3.6 1.1 4.8 2.8C13.2 5.1 14.8 4 16.8 4c3.4 0 5.6 3.3 4.4 6.7C19.5 15.4 12 20 12 20Z"/></svg>
+        <span id="favLabel">Favoritar</span>
+      </button>
+      <button class="tool" id="btnTimer">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></svg>
+        <span id="timerLabel">Timer</span>
+      </button>
+      <button class="tool" id="btnOffline">
+        <svg viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>
+        <span id="offlineLabel">Offline</span>
+      </button>
+      <a class="tool" id="btnSave" download>
+        <svg viewBox="0 0 24 24"><path d="M4 15v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4M12 3v12m-4-4 4 4 4-4"/></svg>
+        <span>MP3</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOLHAS (timer / fila) -->
+  <div id="sheet" class="sheet" hidden>
+    <div class="sheet-card">
+      <div class="grab"></div>
+      <h3 id="sheetTitle"></h3>
+      <div id="sheetBody"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <audio id="audio" preload="metadata"></audio>
+  <script src="sintonia.js"></script>
+</body>
+</html>

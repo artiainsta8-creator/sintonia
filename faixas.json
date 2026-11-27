@@ -1,0 +1,338 @@
+[
+ {
+  "id": "d01",
+  "file": "desacelerar/01-leveza.mp3",
+  "title": "Leveza",
+  "artist": "VoxForge · Original",
+  "album": "Desacelerar",
+  "duration": 338,
+  "tags": [
+   "Desacelerar",
+   "Dormir",
+   "Relaxar"
+  ],
+  "ordem": 1,
+  "size": 5409326,
+  "url": "sons/desacelerar/01-leveza.mp3"
+ },
+ {
+  "id": "d02",
+  "file": "desacelerar/02-passos-lentos.mp3",
+  "title": "Passos Lentos",
+  "artist": "VoxForge · Original",
+  "album": "Desacelerar",
+  "duration": 281,
+  "tags": [
+   "Desacelerar",
+   "Dormir",
+   "Relaxar",
+   "Foco"
+  ],
+  "ordem": 2,
+  "size": 4500265,
+  "url": "sons/desacelerar/02-passos-lentos.mp3"
+ },
+ {
+  "id": "d03",
+  "file": "desacelerar/03-luar.mp3",
+  "title": "Luar",
+  "artist": "VoxForge · Original",
+  "album": "Desacelerar",
+  "duration": 289,
+  "tags": [
+   "Desacelerar",
+   "Dormir",
+   "Relaxar"
+  ],
+  "ordem": 3,
+  "size": 4625653,
+  "url": "sons/desacelerar/03-luar.mp3"
+ },
+ {
+  "id": "d04",
+  "file": "desacelerar/04-pulso-suave.mp3",
+  "title": "Pulso Suave",
+  "artist": "VoxForge · Original",
+  "album": "Desacelerar",
+  "duration": 243,
+  "tags": [
+   "Desacelerar",
+   "Dormir",
+   "Foco"
+  ],
+  "ordem": 4,
+  "size": 3880850,
+  "url": "sons/desacelerar/04-pulso-suave.mp3"
+ },
+ {
+  "id": "d05",
+  "file": "desacelerar/05-mare-mansa.mp3",
+  "title": "Maré Mansa",
+  "artist": "VoxForge · Original",
+  "album": "Desacelerar",
+  "duration": 366,
+  "tags": [
+   "Desacelerar",
+   "Dormir",
+   "Relaxar"
+  ],
+  "ordem": 5,
+  "size": 5856961,
+  "url": "sons/desacelerar/05-mare-mansa.mp3"
+ },
+ {
+  "id": "d06",
+  "file": "desacelerar/06-nuvens.mp3",
+  "title": "Nuvens",
+  "artist": "VoxForge · Original",
+  "album": "Desacelerar",
+  "duration": 342,
+  "tags": [
+   "Desacelerar",
+   "Dormir",
+   "Foco",
+   "Relaxar"
+  ],
+  "ordem": 6,
+  "size": 5470348,
+  "url": "sons/desacelerar/06-nuvens.mp3"
+ },
+ {
+  "id": "d07",
+  "file": "desacelerar/07-bossa-da-madrugada.mp3",
+  "title": "Bossa da Madrugada",
+  "artist": "VoxForge · Original",
+  "album": "Desacelerar",
+  "duration": 294,
+  "tags": [
+   "Desacelerar",
+   "Dormir",
+   "Relaxar"
+  ],
+  "ordem": 7,
+  "size": 4698796,
+  "url": "sons/desacelerar/07-bossa-da-madrugada.mp3"
+ },
+ {
+  "id": "d08",
+  "file": "desacelerar/08-horizonte.mp3",
+  "title": "Horizonte",
+  "artist": "VoxForge · Original",
+  "album": "Desacelerar",
+  "duration": 272,
+  "tags": [
+   "Desacelerar",
+   "Dormir",
+   "Foco"
+  ],
+  "ordem": 8,
+  "size": 4353143,
+  "url": "sons/desacelerar/08-horizonte.mp3"
+ },
+ {
+  "id": "d09",
+  "file": "desacelerar/09-ecos.mp3",
+  "title": "Ecos",
+  "artist": "VoxForge · Original",
+  "album": "Desacelerar",
+  "duration": 307,
+  "tags": [
+   "Desacelerar",
+   "Dormir",
+   "Foco"
+  ],
+  "ordem": 9,
+  "size": 4913209,
+  "url": "sons/desacelerar/09-ecos.mp3"
+ },
+ {
+  "id": "d10",
+  "file": "desacelerar/10-sono-profundo.mp3",
+  "title": "Sono Profundo",
+  "artist": "VoxForge · Original",
+  "album": "Desacelerar",
+  "duration": 195,
+  "tags": [
+   "Desacelerar",
+   "Dormir"
+  ],
+  "ordem": 10,
+  "size": 3121000,
+  "url": "sons/desacelerar/10-sono-profundo.mp3"
+ },
+ {
+  "id": "d11",
+  "file": "desacelerar/11-neblina.mp3",
+  "title": "Neblina",
+  "artist": "VoxForge · Original",
+  "album": "Desacelerar",
+  "duration": 277,
+  "tags": [
+   "Desacelerar",
+   "Dormir"
+  ],
+  "ordem": 11,
+  "size": 4434228,
+  "url": "sons/desacelerar/11-neblina.mp3"
+ },
+ {
+  "id": "brahms",
+  "file": "classicos-60min/01-brahms-cancao-de-ninar-60min.mp3",
+  "title": "Canção de Ninar",
+  "artist": "Johannes Brahms",
+  "album": "Clássicos · 60 min",
+  "duration": 3600,
+  "tags": [
+   "Dormir",
+   "Clássicos"
+  ],
+  "size": 43200867,
+  "url": "sons/classicos-60min/01-brahms-cancao-de-ninar-60min.mp3"
+ },
+ {
+  "id": "pachelbel",
+  "file": "classicos-60min/02-pachelbel-canone-60min.mp3",
+  "title": "Cânone em Ré",
+  "artist": "Johann Pachelbel",
+  "album": "Clássicos · 60 min",
+  "duration": 3600,
+  "tags": [
+   "Relaxar",
+   "Clássicos",
+   "Dormir"
+  ],
+  "size": 43200867,
+  "url": "sons/classicos-60min/02-pachelbel-canone-60min.mp3"
+ },
+ {
+  "id": "bach",
+  "file": "classicos-60min/03-bach-corais-60min.mp3",
+  "title": "Corais",
+  "artist": "Johann Sebastian Bach",
+  "album": "Clássicos · 60 min",
+  "duration": 3600,
+  "tags": [
+   "Clássicos",
+   "Foco",
+   "Relaxar"
+  ],
+  "size": 43200867,
+  "url": "sons/classicos-60min/03-bach-corais-60min.mp3"
+ },
+ {
+  "id": "arias",
+  "file": "classicos-60min/04-arias-e-cancoes-de-ninar-60min.mp3",
+  "title": "Árias e Canções de Ninar",
+  "artist": "Handel, Schumann, Beach, Liliʻuokalani",
+  "album": "Clássicos · 60 min",
+  "duration": 3600,
+  "tags": [
+   "Clássicos",
+   "Relaxar"
+  ],
+  "size": 43200867,
+  "url": "sons/classicos-60min/04-arias-e-cancoes-de-ninar-60min.mp3"
+ },
+ {
+  "id": "quartetos",
+  "file": "classicos-60min/05-quartetos-adagios-60min.mp3",
+  "title": "Adágios de Quarteto",
+  "artist": "Mozart, Haydn, Corelli, Beethoven",
+  "album": "Clássicos · 60 min",
+  "duration": 3600,
+  "tags": [
+   "Clássicos",
+   "Foco"
+  ],
+  "size": 43200867,
+  "url": "sons/classicos-60min/05-quartetos-adagios-60min.mp3"
+ },
+ {
+  "id": "delta-brahms",
+  "file": "6-tons-delta-com-brahms.mp3",
+  "title": "Tons Delta com Brahms",
+  "artist": "Binaural · Johannes Brahms",
+  "album": "Ambientes · 10 min",
+  "duration": 600,
+  "tags": [
+   "Dormir",
+   "Binaural"
+  ],
+  "size": 9600984,
+  "url": "sons/6-tons-delta-com-brahms.mp3"
+ },
+ {
+  "id": "chuva",
+  "file": "1-chuva-suave.mp3",
+  "title": "Chuva Suave",
+  "artist": "Natureza",
+  "album": "Ambientes · 10 min",
+  "duration": 600,
+  "tags": [
+   "Natureza",
+   "Dormir",
+   "Foco"
+  ],
+  "size": 9600984,
+  "url": "sons/1-chuva-suave.mp3"
+ },
+ {
+  "id": "mar",
+  "file": "2-ondas-do-mar.mp3",
+  "title": "Ondas do Mar",
+  "artist": "Natureza",
+  "album": "Ambientes · 10 min",
+  "duration": 600,
+  "tags": [
+   "Natureza",
+   "Relaxar",
+   "Dormir"
+  ],
+  "size": 9600984,
+  "url": "sons/2-ondas-do-mar.mp3"
+ },
+ {
+  "id": "marrom",
+  "file": "3-ruido-marrom.mp3",
+  "title": "Ruído Marrom",
+  "artist": "Ruído",
+  "album": "Ambientes · 10 min",
+  "duration": 600,
+  "tags": [
+   "Desacelerar",
+   "Foco",
+   "Dormir"
+  ],
+  "ordem": 99,
+  "size": 9600984,
+  "url": "sons/3-ruido-marrom.mp3"
+ },
+ {
+  "id": "lareira",
+  "file": "4-lareira.mp3",
+  "title": "Lareira",
+  "artist": "Natureza",
+  "album": "Ambientes · 10 min",
+  "duration": 600,
+  "tags": [
+   "Natureza",
+   "Relaxar"
+  ],
+  "size": 9600984,
+  "url": "sons/4-lareira.mp3"
+ },
+ {
+  "id": "delta",
+  "file": "5-tons-delta-binaural.mp3",
+  "title": "Tons Delta",
+  "artist": "Binaural",
+  "album": "Ambientes · 10 min",
+  "duration": 600,
+  "tags": [
+   "Dormir",
+   "Binaural"
+  ],
+  "size": 9600984,
+  "url": "sons/5-tons-delta-binaural.mp3"
+ }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "Sintonia · VoxForge",
+  "short_name": "Sintonia",
+  "description": "Músicas clássicas e sons ambientes para dormir, relaxar e focar, com download para ouvir offline.",
+  "start_url": "/sintonia/",
+  "scope": "/sintonia/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#16110f",
+  "theme_color": "#16110f",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
