@@ -1,5 +1,140 @@
 [
  {
+  "id": "w01",
+  "file": "worship/01-preludio.mp3",
+  "title": "1. Prelúdio",
+  "artist": "VoxForge · Original",
+  "album": "Jornada · suíte worship",
+  "duration": 242,
+  "tags": [
+   "Worship",
+   "Relaxar"
+  ],
+  "ordem": 1,
+  "size": 3879613,
+  "url": "sons/worship/01-preludio.mp3"
+ },
+ {
+  "id": "w02",
+  "file": "worship/02-memorias.mp3",
+  "title": "2. Memórias",
+  "artist": "VoxForge · Original",
+  "album": "Jornada · suíte worship",
+  "duration": 258,
+  "tags": [
+   "Worship",
+   "Relaxar"
+  ],
+  "ordem": 2,
+  "size": 4129134,
+  "url": "sons/worship/02-memorias.mp3"
+ },
+ {
+  "id": "w03",
+  "file": "worship/03-rio-do-tempo.mp3",
+  "title": "3. Rio do Tempo",
+  "artist": "VoxForge · Original",
+  "album": "Jornada · suíte worship",
+  "duration": 263,
+  "tags": [
+   "Worship",
+   "Relaxar"
+  ],
+  "ordem": 3,
+  "size": 4215655,
+  "url": "sons/worship/03-rio-do-tempo.mp3"
+ },
+ {
+  "id": "w04",
+  "file": "worship/04-deserto.mp3",
+  "title": "4. Deserto",
+  "artist": "VoxForge · Original",
+  "album": "Jornada · suíte worship",
+  "duration": 276,
+  "tags": [
+   "Worship",
+   "Relaxar"
+  ],
+  "ordem": 4,
+  "size": 4413763,
+  "url": "sons/worship/04-deserto.mp3"
+ },
+ {
+  "id": "w05",
+  "file": "worship/05-renovo.mp3",
+  "title": "5. Renovo",
+  "artist": "VoxForge · Original",
+  "album": "Jornada · suíte worship",
+  "duration": 279,
+  "tags": [
+   "Worship",
+   "Relaxar"
+  ],
+  "ordem": 5,
+  "size": 4463499,
+  "url": "sons/worship/05-renovo.mp3"
+ },
+ {
+  "id": "w06",
+  "file": "worship/06-ceu-aberto.mp3",
+  "title": "6. Céu Aberto",
+  "artist": "VoxForge · Original",
+  "album": "Jornada · suíte worship",
+  "duration": 296,
+  "tags": [
+   "Worship",
+   "Relaxar"
+  ],
+  "ordem": 6,
+  "size": 4743536,
+  "url": "sons/worship/06-ceu-aberto.mp3"
+ },
+ {
+  "id": "w07",
+  "file": "worship/07-rendicao.mp3",
+  "title": "7. Rendição",
+  "artist": "VoxForge · Original",
+  "album": "Jornada · suíte worship",
+  "duration": 286,
+  "tags": [
+   "Worship",
+   "Relaxar"
+  ],
+  "ordem": 7,
+  "size": 4573844,
+  "url": "sons/worship/07-rendicao.mp3"
+ },
+ {
+  "id": "w08",
+  "file": "worship/08-eternidade.mp3",
+  "title": "8. Eternidade",
+  "artist": "VoxForge · Original",
+  "album": "Jornada · suíte worship",
+  "duration": 297,
+  "tags": [
+   "Worship",
+   "Relaxar"
+  ],
+  "ordem": 8,
+  "size": 4745207,
+  "url": "sons/worship/08-eternidade.mp3"
+ },
+ {
+  "id": "w09",
+  "file": "worship/09-lar.mp3",
+  "title": "9. Lar",
+  "artist": "VoxForge · Original",
+  "album": "Jornada · suíte worship",
+  "duration": 250,
+  "tags": [
+   "Worship",
+   "Relaxar"
+  ],
+  "ordem": 9,
+  "size": 4002905,
+  "url": "sons/worship/09-lar.mp3"
+ },
+ {
   "id": "g01",
   "file": "gospel/01-graca-serena.mp3",
   "title": "Graça Serena",

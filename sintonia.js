@@ -17,6 +17,9 @@ const ICON = {
 
 const MOODS = [
   { id: 'all', label: 'Tudo', c: '#ff8a3d', icon: '<path d="M4 6h16M4 12h16M4 18h16"/>' },
+  { id: 'Worship', label: 'Jornada', c: '#38bdf8', playlist: true,
+    desc: 'suíte worship em 9 capítulos ligados pelo mesmo tema: ouça em ordem, de olhos fechados, e acompanhe o tema mudar.',
+    icon: '<path d="M3 17c3-6 6-9 9-9s6 3 9 9"/><circle cx="12" cy="5" r="1.5"/>' },
   { id: 'Desacelerar', label: 'Desacelerar', c: '#c084fc', playlist: true, timer: 45, icon: '<path d="M4 5h16M6 10h12M8 15h8M10 20h4"/>' },
   { id: 'Gospel', label: 'Gospel', c: '#fcd34d', playlist: true, timer: 45, icon: '<path d="M12 3v18M7 8h10"/>' },
   { id: 'Dormir', label: 'Dormir', c: '#a78bfa', icon: '<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z"/>' },
@@ -52,6 +55,15 @@ const PAL = {
   marrom: ['#24170f', '#7a5534', '#f2dcc6', 'noise'],
   lareira: ['#2a0f06', '#c2541b', '#ffd8a8', 'fire'],
   delta: ['#0d0b26', '#5a3fa0', '#e4dcff', 'wave'],
+  w01: ['#0d1b2a', '#3a6ea5', '#e0f2ff', 'wave'],
+  w02: ['#1f1520', '#6d4a6b', '#f3e6f0', 'moon'],
+  w03: ['#0b2230', '#1f7a8c', '#dff9ff', 'sea'],
+  w04: ['#2b1d10', '#b07a3a', '#fff0d9', 'noise'],
+  w05: ['#10241a', '#3f9c6b', '#e8fff1', 'wave'],
+  w06: ['#1a2140', '#6f86d6', '#fffbe6', 'strings'],
+  w07: ['#1e1a2e', '#5b4f8f', '#efeaff', 'moon'],
+  w08: ['#0c0c1f', '#2d3a7a', '#f2f0ff', 'notes'],
+  w09: ['#22180f', '#9a6a3a', '#fff3e0', 'organ'],
   g01: ['#2a1f10', '#b38a4a', '#fff1d6', 'moon'],
   g02: ['#0e2433', '#3d7d99', '#e6f7ff', 'sea'],
   g03: ['#231a33', '#8a6bc7', '#fff4d6', 'notes'],
@@ -316,9 +328,9 @@ function render() {
   $('hint').hidden = !m.playlist;
   if (m.playlist) {
     const mins = Math.round(visible().reduce((a, t) => a + t.duration, 0) / 60);
-    $('hint').innerHTML = `<b>Playlist ${esc(m.label)}</b> · ${mins} min, do mais calmo ao quase silêncio.
-      Toque em <b>Tocar</b>: a ordem fica fixa e o timer de ${m.timer} min liga sozinho.
-      Deixe o volume baixo e use sempre a mesma playlist.`;
+    $('hint').innerHTML = `<b>Playlist ${esc(m.label)}</b> · ${mins} min, ${m.desc || 'do mais calmo ao quase silêncio.'}
+      Toque em <b>Tocar</b>: a ordem fica fixa${m.timer ? ` e o timer de ${m.timer} min liga sozinho` : ''}.
+      ${m.timer ? 'Deixe o volume baixo e use sempre a mesma playlist.' : 'Use fone de ouvido para sentir os detalhes.'}`;
   }
   const grid = $('grid');
   const cur = current();
