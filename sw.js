@@ -1,6 +1,6 @@
 // Service worker do Sintonia: guarda a interface para abrir sem internet e
 // serve as faixas baixadas (Cache API), inclusive pedidos com Range (avançar/voltar).
-const SHELL = 'sintonia-shell-v3';
+const SHELL = 'sintonia-shell-v4';
 const AUDIO = 'dormir-audio-v1'; // nome antigo mantido para não perder faixas já baixadas
 const FILES = ['./', 'sintonia.css', 'sintonia.js', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png'];
 
@@ -46,8 +46,10 @@ self.addEventListener('fetch', (e) => {
       const c = await caches.open(SHELL);
       const cached = () => c.match(e.request, { ignoreSearch: true }).then((r) => r || c.match('./'));
       try {
+        // no-cache: sempre confere com o servidor se há versão nova (o GitHub Pages guarda cópias por 10 min)
+        const req = e.request.mode === 'navigate' ? e.request : new Request(e.request, { cache: 'no-cache' });
         const res = await Promise.race([
-          fetch(e.request),
+          fetch(req),
           new Promise((_, rej) => setTimeout(() => rej(new Error('lento')), 4000)),
         ]);
         if (res.ok && !res.redirected && res.type === 'basic') {
