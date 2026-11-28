@@ -1,5 +1,149 @@
 [
  {
+  "id": "g01",
+  "file": "gospel/01-graca-serena.mp3",
+  "title": "Graça Serena",
+  "artist": "VoxForge · Original",
+  "album": "Gospel para Dormir",
+  "duration": 273,
+  "tags": [
+   "Gospel",
+   "Dormir",
+   "Relaxar"
+  ],
+  "ordem": 1,
+  "size": 4372795,
+  "url": "sons/gospel/01-graca-serena.mp3"
+ },
+ {
+  "id": "g02",
+  "file": "gospel/02-aguas-tranquilas.mp3",
+  "title": "Águas Tranquilas",
+  "artist": "VoxForge · Original",
+  "album": "Gospel para Dormir",
+  "duration": 285,
+  "tags": [
+   "Gospel",
+   "Dormir",
+   "Relaxar"
+  ],
+  "ordem": 2,
+  "size": 4557950,
+  "url": "sons/gospel/02-aguas-tranquilas.mp3"
+ },
+ {
+  "id": "g03",
+  "file": "gospel/03-coro-dos-anjos.mp3",
+  "title": "Coro dos Anjos",
+  "artist": "VoxForge · Original",
+  "album": "Gospel para Dormir",
+  "duration": 291,
+  "tags": [
+   "Gospel",
+   "Dormir",
+   "Relaxar"
+  ],
+  "ordem": 3,
+  "size": 4660350,
+  "url": "sons/gospel/03-coro-dos-anjos.mp3"
+ },
+ {
+  "id": "g04",
+  "file": "gospel/04-oracao-da-noite.mp3",
+  "title": "Oração da Noite",
+  "artist": "VoxForge · Original",
+  "album": "Gospel para Dormir",
+  "duration": 266,
+  "tags": [
+   "Gospel",
+   "Dormir",
+   "Relaxar"
+  ],
+  "ordem": 4,
+  "size": 4262035,
+  "url": "sons/gospel/04-oracao-da-noite.mp3"
+ },
+ {
+  "id": "g05",
+  "file": "gospel/05-luz-no-vale.mp3",
+  "title": "Luz no Vale",
+  "artist": "VoxForge · Original",
+  "album": "Gospel para Dormir",
+  "duration": 315,
+  "tags": [
+   "Gospel",
+   "Dormir",
+   "Relaxar"
+  ],
+  "ordem": 5,
+  "size": 5044873,
+  "url": "sons/gospel/05-luz-no-vale.mp3"
+ },
+ {
+  "id": "g06",
+  "file": "gospel/06-paz-que-excede.mp3",
+  "title": "Paz que Excede",
+  "artist": "VoxForge · Original",
+  "album": "Gospel para Dormir",
+  "duration": 292,
+  "tags": [
+   "Gospel",
+   "Dormir",
+   "Relaxar"
+  ],
+  "ordem": 6,
+  "size": 4679995,
+  "url": "sons/gospel/06-paz-que-excede.mp3"
+ },
+ {
+  "id": "g07",
+  "file": "gospel/07-descanso-em-ti.mp3",
+  "title": "Descanso em Ti",
+  "artist": "VoxForge · Original",
+  "album": "Gospel para Dormir",
+  "duration": 307,
+  "tags": [
+   "Gospel",
+   "Dormir",
+   "Relaxar"
+  ],
+  "ordem": 7,
+  "size": 4909872,
+  "url": "sons/gospel/07-descanso-em-ti.mp3"
+ },
+ {
+  "id": "g08",
+  "file": "gospel/08-noite-santa.mp3",
+  "title": "Noite Santa",
+  "artist": "VoxForge · Original",
+  "album": "Gospel para Dormir",
+  "duration": 318,
+  "tags": [
+   "Gospel",
+   "Dormir",
+   "Relaxar"
+  ],
+  "ordem": 8,
+  "size": 5091684,
+  "url": "sons/gospel/08-noite-santa.mp3"
+ },
+ {
+  "id": "g09",
+  "file": "gospel/09-amem.mp3",
+  "title": "Amém",
+  "artist": "VoxForge · Original",
+  "album": "Gospel para Dormir",
+  "duration": 196,
+  "tags": [
+   "Gospel",
+   "Dormir",
+   "Relaxar"
+  ],
+  "ordem": 9,
+  "size": 3138561,
+  "url": "sons/gospel/09-amem.mp3"
+ },
+ {
   "id": "d01",
   "file": "desacelerar/01-leveza.mp3",
   "title": "Leveza",
